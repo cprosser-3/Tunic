@@ -1,0 +1,27 @@
+.rune::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.rune_character {
+    float: left;
+    padding: 0px;
+}
+.rune_character_section {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.l0 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.l1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.plain_text {
+    font-size: 24px;
+}
