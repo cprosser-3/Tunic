@@ -12,6 +12,12 @@
     top: 0;
     left: 0;
 }
+.rune_text_row {
+    display: flex;
+}
+.rune_text_col {
+    padding: 5px;
+}
 .l0 {
     position: relative;
     top: 0;
