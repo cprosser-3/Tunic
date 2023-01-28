@@ -1,5 +1,8 @@
 <?xml version="1.0"?>
 <text>
+    <!-- ......................................................................................... -->
+    <!-- ........................................ PAGE 03 ........................................ -->
+    <!-- ......................................................................................... -->
     <page number="3">
         <notes>
 
@@ -469,7 +472,9 @@
         </paragraph>
     </page>
 
-
+    <!-- ......................................................................................... -->
+    <!-- ........................................ PAGE 04 ........................................ -->
+    <!-- ......................................................................................... -->
     <page number="4">
         <notes>
 
@@ -915,7 +920,515 @@
         </paragraph>
     </page>
 
+    <!-- ......................................................................................... -->
+    <!-- ........................................ PAGE 05 ........................................ -->
+    <!-- ......................................................................................... -->
+    <page number="5">
+        <notes>
+            - Didn't include "..." in first paragraph
 
+            ** LOOK INTO STRUCTURED OUTPUT MACHINE LEARNING **
+        </notes>
+
+        <paragraph>
+            <sentence type="title">
+                <fragment>
+                    <term type="plain_text">
+                        A
+                    </term>
+                    <term type="plain_text">
+                        Prison
+                    </term>
+                    <term type="plain_text">
+                        And
+                    </term>
+                    <term type="plain_text">
+                        A
+                    </term>
+                    <term type="plain_text">
+                        Beacon
+                    </term>
+                </fragment>
+            </sentence>
+            <sentence endmark=".">
+                <fragment separator=",">
+                    <term>
+                        [--12-1|-----1]
+                        [-1-11-|---2--]
+                    </term>
+                    <term>
+                        [-11-11|------]
+                        [-1----|--1--1]
+                    </term>
+                    <term>
+                        [--1--1|--1--1]
+                        [---21-|--12--]
+                        [-1-11-|---2--]
+                    </term>
+                    <term>
+                        [---2--|-1-21-]
+                        [-1-2--|-----1]
+                    </term>
+                    <term>
+                        [-1-11-|---31-]
+                        [---211|--12--]
+                        [---2--|--1--1]
+                    </term>
+                    <term>
+                        [--12-1|--12-1]
+                    </term>
+                    <term>
+                        [-1-11-|-11211]
+                        [11-2-1|11--11]
+                        [-1-21-|-11311]
+                    </term>
+                    <term>
+                        [---21-|-1-21-]
+                        [-1-21-|--12-1]
+                    </term>
+                </fragment>
+                <fragment>
+                    <term type="plain_text">
+                        The
+                    </term>
+                    <term type="plain_text">
+                        Heir
+                    </term>
+                    <term>
+                        [1-121-|11121-]
+                        [---21-|-1--11]
+                        [-1-21-|--12-1]
+                    </term>
+                    <term>
+                        [111--1|1-11-1]
+                    </term>
+                    <term type="plain_text">
+                        Heir-To-The-Heir
+                    </term>
+                </fragment>
+            </sentence>
+            <sentence endmark=".">
+                <fragment>
+                    <term>
+                        [--1--1|------]
+                    </term>
+                    <term>
+                        [1-12--|11--11]
+                        [---21-|-1--11]
+                        [-1----|--1--1]
+                    </term>
+                    <term>
+                        [111111|11-2--]
+                    </term>
+                    <term>
+                        [---2--|-----1]
+                        [---21-|-1-21-]
+                        [-1-21-|--12-1]
+                    </term>
+                    <term>
+                        [--12-1|---1-1]
+                        [-1-11-|---31-]
+                    </term>
+                    <term>
+                        [--1--1|------]
+                    </term>
+                    <term>
+                        [1-1211|11-2--]
+                        [-1----|-11111]
+                    </term>
+                    <term>
+                        [1-121-|11121-]
+                        [1--211|11--11]
+                    </term>
+                </fragment>
+            </sentence>
+            <sentence endmark=".">
+                <fragment separator=",">
+                    <term>
+                        [111111|11-2--]
+                    </term>
+                    <term>
+                        [1-12--|111311]
+                        [1----1|11--1-]
+                    </term>
+                    <term>
+                        [---11-|---2-1]
+                        [1-1211|11-21-]
+                    </term>
+                    <term>
+                        [---21-|--12--]
+                        [-1-11-|---2--]
+                        [1-121-|1--2--]
+                        [-1-21-|--12-1]
+                    </term>
+                    <term>
+                        [111--1|1-11-1]
+                        [---2--|--1--1]
+                    </term>
+                    <term>
+                        [1-121-|11-21-]
+                        [---11-|---2--]
+                        [--12--|---2--]
+                        [---21-|--12--]
+                    </term>
+                    <term>
+                        [111--1|1-11-1]
+                    </term>
+                    <term>
+                        [--12--|---3--]
+                        [-1-21-|-11311]
+                    </term>
+                    <term>
+                        [1-----|1---1-]
+                    </term>
+                </fragment>
+                <fragment separator=",">
+                    <term>
+                        [1-1--1|1---1-]
+                    </term>
+                    <term>
+                        [111111|11-2--]
+                    </term>
+                    <term>
+                        [1-12-1|11-211]
+                        [---2--|---2--]
+                        [---2--|--1--1]
+                    </term>
+                    <term>
+                        [--121-|--12--]
+                        [---21-|-----1]
+                        [---21-|-1-21-]
+                        [---2--|--1--1]
+                    </term>
+                    <term type="plain_text">
+                        Holy
+                    </term>
+                    <term type="plain_text">
+                        Cross
+                    </term>
+                </fragment>
+                <fragment>
+                    <term>
+                        [111--1|1-11-1]
+                        [---2--|--1--1]
+                    </term>
+                    <term>
+                        [11----|111111]
+                        [11-111|111211]
+                    </term>
+                    <term>
+                        [1--2--|1-1211]
+                    </term>
+                    <term>
+                        [-1--1-|-1--1-]
+                        [-1-2--|---2-1]
+                        [--12-1|--1--1]
+                        [------|--1--1]
+                    </term>
+                    <term>
+                        [---2--|-1-21-]
+                        [-1-2--|-----1]
+                        [-1-2--|---2-1]
+                    </term>
+                    <term>
+                        [111---|1-11-1]
+                    </term>
+                </fragment>
+            </sentence>
+        </paragraph>
+
+        <paragraph>
+            <sentence type="title">
+                <fragment>
+                    <term type="plain_text">
+                        Awaiting
+                    </term>
+                    <term type="plain_text">
+                        A
+                    </term>
+                    <term type="plain_text">
+                        Worthy
+                    </term>
+                    <term type="plain_text">
+                        Successor
+                    </term>
+                </fragment>
+            </sentence>
+            <sentence endmark="?">
+                <fragment separator=",">
+                    <term>
+                        [-1--1-|-1--1-]
+                        [-1-1--|---2--]
+                    </term>
+                    <term>
+                        [-1--1-|-1--1-]
+                        [---2--|---2--]
+                    </term>
+                    <term>
+                        [1112-1|11-2--]
+                    </term>
+                    <term>
+                        [1-12--|11--11]
+                    </term>
+                </fragment>
+                <fragment>
+                    <term>
+                        [1-1211|11-2--]
+                        [-1----|-11111]
+                    </term>
+                    <term>
+                        [1-121-|11121-]
+                        [1--211|11--11]
+                    </term>
+                </fragment>
+            </sentence>
+            <sentence endmark="?">
+                <fragment>
+                    <term>
+                        [1-12-1|1--2-1]
+                        [-1-2--|-----1]
+                    </term>
+                    <term>
+                        [1112-1|11-2--]
+                    </term>
+                    <term>
+                        [--1--1|------]
+                        [---211|---2--]
+                        [-1-2--|-----1]
+                        [---2--|--1--1]
+                    </term>
+                    <term>
+                        [1-12--|1--211]
+                    </term>
+                    <term>
+                        [1-121-|11121-]
+                        [---21-|-1--11]
+                        [-1-21-|--12-1]
+                    </term>
+                    <term>
+                        [-1-11-|---2--]
+                        [1--21-|11-21-]
+                        [11-211|111-11]
+                    </term>
+                    <term>
+                        [111--1|1-11-1]
+                        [---2--|--1--1]
+                    </term>
+                    <term>
+                        [---11-|---2-1]
+                        [1-12-1|1--21-]
+                        [1-1---|11--1-]
+                    </term>
+                </fragment>
+            </sentence>
+            <sentence endmark="?">
+                <fragment>
+                    <term>
+                        [1-1--1|1---1-]
+                    </term>
+                    <term>
+                        [1-12-1|111--1]
+                    </term>
+                    <term>
+                        [1112-1|11-2--]
+                    </term>
+                    <term>
+                        [1-121-|11121-]
+                        [---21-|-----1]
+                    </term>
+                    <term>
+                        [111111|11-2--]
+                    </term>
+                    <term>
+                        [-11--1|--11-1]
+                        [--1211|-----1]
+                        [11-2-1|11--11]
+                    </term>
+                    <term>
+                        [1-12--|111-11]
+                        [1--111|11-21-]
+                    </term>
+                    <term>
+                        [-1-11-|---2--]
+                        [1-1211|11-2--]
+                        [-1-21-|---2--]
+                        [---21-|--12--]
+                    </term>
+                </fragment>
+            </sentence>
+            <sentence endmark="...">
+                <fragment separator=",">
+                    <term>
+                        [1--2--|11-2--]
+                        [---21-|-----1]
+                    </term>
+                    <term>
+                        [1--21-|1---11]
+                        [1--11-|1112--]
+                        [1-12--|11-21-]
+                    </term>
+                </fragment>
+                <fragment>
+                    <term>
+                        [1-1111|1-121-]
+                    </term>
+                    <term type="plain_text">
+                        The
+                    </term>
+                    <term type="plain_text">
+                        Golden
+                    </term>
+                    <term type="plain_text">
+                        Path
+                    </term>
+                    <term>
+                        [---2-1|---2--]
+                        [-1-2--|---2-1]
+                    </term>
+                    <term>
+                        [11-2--|11-111]
+                        [1----1|11--1-]
+                        [1-1---|11--1-]
+                        [11--1-|1---1-]
+                    </term>
+                </fragment>
+            </sentence>
+        </paragraph>
+    </page>
+
+    <!-- ......................................................................................... -->
+    <!-- ........................................ PAGE 06 ........................................ -->
+    <!-- ......................................................................................... -->
+    <page number="6">
+        <notes>
+            - Made all sentences titles for this page.
+            - Middle terms may be incorrect
+        </notes>
+
+        <paragraph>
+            <sentence type="title">
+                <fragment>
+                    <term>
+                        [1-1211|1----1]
+                        [111---|1-1--1]
+                        [-1----|-11-11]
+                        [1--21-|11---1]
+                        [---2--|---2--]
+                    </term>
+                    <term>
+                        [---11-|---2--]
+                        [--12--|---2--]
+                        [-1----|--1--1]
+                    </term>
+                </fragment>
+            </sentence>
+            <sentence type="title">
+                <fragment>
+                    <term>
+                        [--12-1|--12-1]
+                    </term>
+                    <term>
+                        [111-11|1-12-1]
+                        [1-12-1|111-11]
+                    </term>
+                    <term>
+                        [1-12-1|11-1-1]
+                        [1-12--|11-21-]
+                        [11--1-|11-31-]
+                    </term>
+                </fragment>
+            </sentence>
+            <sentence type="title">
+                <fragment>
+                    <term>
+                        [--12-1|--12-1]
+                    </term>
+                    <term>
+                        [--1111|-1121-]
+                    </term>
+                    <term>
+                        [111111|1-1211]
+                    </term>
+                </fragment>
+            </sentence>
+        </paragraph>
+
+        <paragraph>
+            <sentence type="title">
+                <fragment>
+                    <term type="plain_text">
+                        Coveted
+                    </term>
+                    <term type="plain_text">
+                        In
+                    </term>
+                    <term type="plain_text">
+                        A
+                    </term>
+                    <term type="plain_text">
+                        Forest
+                    </term>
+                    <term type="plain_text">
+                        Temple
+                    </term>
+                </fragment>
+            </sentence>
+            <sentence type="title">
+                <fragment>
+                    <term type="plain_text">
+                        Stolen
+                    </term>
+                    <term type="plain_text">
+                        To
+                    </term>
+                    <term type="plain_text">
+                        The
+                    </term>
+                    <term type="plain_text">
+                        Top
+                    </term>
+                    <term type="plain_text">
+                        Of
+                    </term>
+                    <term type="plain_text">
+                        The
+                    </term>
+                    <term type="plain_text">
+                        Sky
+                    </term>
+                </fragment>
+            </sentence>
+            <sentence type="title">
+                <fragment>
+                    <term type="plain_text">
+                        Sealed
+                    </term>
+                    <term type="plain_text">
+                        At
+                    </term>
+                    <term type="plain_text">
+                        The
+                    </term>
+                    <term type="plain_text">
+                        Root
+                    </term>
+                    <term type="plain_text">
+                        Of
+                    </term>
+                    <term type="plain_text">
+                        The
+                    </term>
+                    <term type="plain_text">
+                        World
+                    </term>
+                </fragment>
+            </sentence>
+        </paragraph>
+    </page>
+
+    <!-- ......................................................................................... -->
+    <!-- ........................................ PAGE 13 ........................................ -->
+    <!-- ......................................................................................... -->
     <page number="13">
         <notes>
             - Made "Player Character Reading Sign" its own sentence [not sure if ideal].

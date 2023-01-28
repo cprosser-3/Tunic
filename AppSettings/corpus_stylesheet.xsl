@@ -1,85 +1,87 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
 
-  <xsl:template match="/text">
-    <table>
+    <xsl:template match="/text">
+        <table>
 
-        <!-- PAGES -->
-        <xsl:for-each select="page">
-            <xsl:variable name="Page" select="@number"/>
+            <!-- PAGES -->
+            <xsl:for-each select="page">
+                <xsl:variable name="Page" select="@number"/>
 
-            <!-- PARAGRAPHS -->
-            <xsl:for-each select="paragraph">
-                <xsl:variable name="Paragraph" select="position() - 1"/>
-                <xsl:variable name="ParagraphType" select="@type"/>
-                <xsl:variable name="ParagraphReference" select="@reference"/>
+                <!-- PARAGRAPHS -->
+                <xsl:for-each select="paragraph">
+                    <xsl:variable name="Paragraph" select="position() - 1"/>
+                    <xsl:variable name="ParagraphType" select="@type"/>
+                    <xsl:variable name="ParagraphReference" select="@reference"/>
 
-                <!-- SENTENCES -->
-                <xsl:for-each select="sentence">
-                    <xsl:variable name="Sentence" select="position() - 1"/>
-                    <xsl:variable name="SentenceType" select="@type"/>
-                    <xsl:variable name="SentenceEndmark" select="@endmark"/>
+                    <!-- SENTENCES -->
+                    <xsl:for-each select="sentence">
+                        <xsl:variable name="Sentence" select="position() - 1"/>
+                        <xsl:variable name="SentenceType" select="@type"/>
+                        <xsl:variable name="SentenceEndmark" select="@endmark"/>
 
-                    <!-- FRAGMENTS -->
-                    <xsl:for-each select="fragment">
-                        <xsl:variable name="Fragment" select="position() - 1"/>
-                        <xsl:variable name="FragmentSeparator" select="@separator"/>
+                        <!-- FRAGMENTS -->
+                        <xsl:for-each select="fragment">
+                            <xsl:variable name="Fragment" select="position() - 1"/>
+                            <xsl:variable name="FragmentSeparator" select="@separator"/>
 
-                        <!-- TERMS -->
-                        <xsl:for-each select="term">
-                            <xsl:variable name="Term" select="position() - 1"/>
-                            <xsl:variable name="TermType" select="@type"/>
-                            
-                            <!-- ROWS -->
-                            <tr>
-                                <Page>
-                                    <xsl:value-of select="$Page"/>
-                                </Page>
-                            
-                                <Paragraph>
-                                    <xsl:value-of select="$Paragraph"/>
-                                </Paragraph>
+                            <!-- TERMS -->
+                            <xsl:for-each select="term">
+                                <xsl:variable name="Term" select="position() - 1"/>
+                                <xsl:variable name="TermType" select="@type"/>
 
-                                <Sentence>
-                                    <xsl:value-of select="$Sentence"/>
-                                </Sentence>
+                                <!-- ROWS -->
+                                <tr>
+                                    <Page>
+                                        <xsl:value-of select="$Page"/>
+                                    </Page>
+                                
+                                    <Paragraph>
+                                        <xsl:value-of select="$Paragraph"/>
+                                    </Paragraph>
 
-                                <Fragment>
-                                    <xsl:value-of select="$Fragment"/>
-                                </Fragment>
+                                    <Sentence>
+                                        <xsl:value-of select="$Sentence"/>
+                                    </Sentence>
 
-                                <Term>
-                                    <xsl:value-of select="$Term"/>
-                                </Term>
+                                    <Fragment>
+                                        <xsl:value-of select="$Fragment"/>
+                                    </Fragment>
 
-                                <ParagraphType>
-                                    <xsl:value-of select="$ParagraphType"/>
-                                </ParagraphType>
-                            
-                                <ParagraphReference>
-                                    <xsl:value-of select="$ParagraphReference"/>
-                                </ParagraphReference>
+                                    <Term>
+                                        <xsl:value-of select="$Term"/>
+                                    </Term>
 
-                                <SentenceType>
-                                    <xsl:value-of select="$SentenceType"/>
-                                </SentenceType>
+                                    <ParagraphType>
+                                        <xsl:value-of select="$ParagraphType"/>
+                                    </ParagraphType>
+                                
+                                    <ParagraphReference>
+                                        <xsl:value-of select="$ParagraphReference"/>
+                                    </ParagraphReference>
 
-                                <SentenceEndmark>
-                                    <xsl:value-of select="$SentenceEndmark"/>
-                                </SentenceEndmark>
+                                    <SentenceType>
+                                        <xsl:value-of select="$SentenceType"/>
+                                    </SentenceType>
 
-                                <FragmentSeparator>
-                                    <xsl:value-of select="$FragmentSeparator"/>
-                                </FragmentSeparator>
+                                    <SentenceEndmark>
+                                        <xsl:value-of select="$SentenceEndmark"/>
+                                    </SentenceEndmark>
 
-                                <TermType>
-                                    <xsl:value-of select="$TermType"/>
-                                </TermType>
+                                    <FragmentSeparator>
+                                        <xsl:value-of select="$FragmentSeparator"/>
+                                    </FragmentSeparator>
 
-                                <TermText>
-                                    <xsl:value-of select="."/>
-                                </TermText>
-                            </tr>
+                                    <TermType>
+                                        <xsl:value-of select="$TermType"/>
+                                    </TermType>
+
+                                    <TermText>
+                                        <xsl:value-of select="."/>
+                                    </TermText>
+                                </tr>
+
+                            </xsl:for-each>
 
                         </xsl:for-each>
 
@@ -89,9 +91,7 @@
 
             </xsl:for-each>
 
-        </xsl:for-each>
-
-    </table>
-  </xsl:template>       
+        </table>
+    </xsl:template>       
         
 </xsl:stylesheet>
